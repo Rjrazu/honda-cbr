@@ -14,10 +14,11 @@ header .container-fluid{
 }
 
 .our-card .filled{
-        color: #FFC014;
+        color: #E77C40;
     }
     .our-card .empty{
-        color: #AEAEAE;
+        color: #E77C40;
+
 }
 #feedback {
     background: #0d0442;
