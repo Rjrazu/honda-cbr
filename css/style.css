@@ -1,13 +1,41 @@
-body{
+/* -----------
+mAIN BODY
+----------- */
+
+*{
     font-family: 'Poppins', sans-serif;
 }
+
+/* ----------
+HEADER SECTION
+------------ */
 
 .header-top, .header-info{
     background: #264653;
 }
-header .container-fluid{
-    max-height: 1480px;
+
+.header-info P{
+    font-size: 14PX;
+    color: #FFFFFF;
+    font-weight: 300;
 }
+
+.header-info h1{
+    font-size: 48PX;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-own {
+    background-image: linear-gradient(tomato, orange);
+    text-decoration: none;
+    color: white;
+}
+
+
+/*--------------
+ Featured Section
+ -------------- */
 
 .image-grayscale{
     filter: grayscale(100%);
