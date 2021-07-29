@@ -1,11 +1,20 @@
 /* -----------
-mAIN BODY
+MAIN BODY
 ----------- */
 
 *{
     font-family: 'Poppins', sans-serif;
 }
-
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.h-color{
+    color: #E76F51;
+}
+.p-color{
+    color: #6C6C6C;
+}
 /* ----------
 HEADER SECTION
 ------------ */
@@ -26,50 +35,54 @@ HEADER SECTION
     font-weight: 600;
 }
 
-.btn-own {
+.btn-custom {
     background-image: linear-gradient(tomato, orange);
     text-decoration: none;
     color: white;
+    padding: 10px 30px;
 }
 
 
 /*--------------
  Featured Section
  -------------- */
+ .feature-section p{
+    font-size: 14PX;
+    color: #E76F51;
+    font-weight: 600;
+}
 
 .image-grayscale{
     filter: grayscale(100%);
 }
 
-.our-card .filled{
-        color: #E77C40;
+/*--------------
+ Clients Review
+ -------------- */
+
+.custom-card .filled{
+    color: #E77C40;
     }
-    .our-card .empty{
-        color: #E77C40;
-
+.custom-card .empty{
+    color: #E77C40;
 }
-#feedback {
-    background: #0d0442;
-    padding: 7% 10%;
+.review-section p{
+    font-size: 16px;
 }
-
-.hr-style {
-    border: 5px dotted white;
-    border-bottom: none;
-    width: 50px;
+.review-section h4{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 600;
 }
-
-.carousel-item {
-    padding: 5% 15%;
-    text-align: center;
-    font-style: italic;
+/*-----------
+ Feedback 
+ -----------*/
+ .form-section{
+    background: #264653;
 }
 
-.feedback-img {
-    width: 120px;
-    height: auto;
-}
-
-.carousel-indicators {
-    bottom: -20px;
-}
+/* --------------------------------
+-----------------------------------
+ALLAH HAFEEZ
+-----------------------------------
+----------------------------------- */
