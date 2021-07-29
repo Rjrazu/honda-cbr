@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-top, .header-info{
+    background: #264653;
+}
+header .container-fluid{
+    max-height: 1480px;
+}
+
+.image-grayscale{
+    filter: grayscale(100%);
+}
+
+.our-card .filled{
+        color: #FFC014;
+    }
+    .our-card .empty{
+        color: #AEAEAE;
+}
+#feedback {
+    background: #0d0442;
+    padding: 7% 10%;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+}
+
+.feedback-img {
+    width: 120px;
+    height: auto;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
